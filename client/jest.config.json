@@ -1,0 +1,24 @@
+{
+    "roots": ["<rootDir>"],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleNameMapper":{
+      "^.+\\.(css|less)$": "<rootDir>/config/CSSStub.js"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "collectCoverage": true,
+    "clearMocks": true,
+    "coverageDirectory": "coverage",
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTests.ts"
+    ]
+  }

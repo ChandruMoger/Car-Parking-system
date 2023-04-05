@@ -1,0 +1,32 @@
+
+.container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.slots-container {
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.slots {
+  width: calc(100% * (1/12));
+  height: 50px;
+  font-size: 13px;
+}
+
+.slot-not-in-use {
+  background-color: lightgray;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.default-cursor {
+  cursor: default !important;
+}
